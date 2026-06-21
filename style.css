@@ -296,4 +296,30 @@ nav a:hover{
         padding:12px 25px;
     }
     }
+    /* Skills Cards */
+
+#skills ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+#skills li{
+    width:150px;
+    text-align:center;
+    background:#1a1a1a;
+    border:1px solid #00ffff;
+    color:#00ffff;
+    padding:20px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+#skills li:hover{
+    transform:translateY(-10px);
+    background:#00ffff;
+    color:black;
+    box-shadow:0 0 20px #00ffff;
+}
 
