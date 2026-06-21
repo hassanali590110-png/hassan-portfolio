@@ -246,4 +246,54 @@ nav a:hover{
     transform:scale(1.15);
     color:white;
 }
+    /* Mobile Responsive Design */
+
+@media(max-width:600px){
+
+    body{
+        padding:0;
+    }
+
+    nav{
+        padding:15px 5px;
+    }
+
+    nav a{
+        display:block;
+        margin:12px;
+        font-size:18px;
+    }
+
+    header{
+        padding:40px 15px;
+    }
+
+    .profile{
+        width:130px;
+        height:130px;
+    }
+
+    h1{
+        font-size:32px;
+    }
+
+    h2{
+        font-size:24px;
+    }
+
+    section{
+        width:92%;
+        padding:20px;
+        margin:25px auto;
+    }
+
+    input,
+    textarea{
+        font-size:16px;
+    }
+
+    .btn{
+        padding:12px 25px;
+    }
+}
 }
