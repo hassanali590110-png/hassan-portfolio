@@ -322,4 +322,21 @@ nav a:hover{
     color:black;
     box-shadow:0 0 20px #00ffff;
 }
+    /* Hero Buttons */
+
+.hero-buttons{
+    margin-top:25px;
+}
+
+.btn.second{
+    background:transparent;
+    color:#00ffff;
+    border:2px solid #00ffff;
+    margin-left:10px;
+}
+
+.btn.second:hover{
+    background:#00ffff;
+    color:black;
+}
 
