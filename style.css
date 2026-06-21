@@ -225,5 +225,25 @@ h1{
 .profile:hover{
     transform:scale(1.1) rotate(5deg);
 }
+/* Professional Navbar */
 
+nav{
+    background:#111;
+    padding:18px;
+    text-align:center;
+    box-shadow:0 0 15px #00ffff;
+}
+
+nav a{
+    display:inline-block;
+    color:#00ffff;
+    margin:10px 15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    transform:scale(1.15);
+    color:white;
+}
 }
