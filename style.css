@@ -191,5 +191,24 @@ h1{
     background:white;
     transform:scale(1.1);
 }
+    /* Project Cards */
+
+#projects div{
+    background:#1a1a1a;
+    padding:20px;
+    margin:20px 0;
+    border-radius:15px;
+    transition:0.3s;
+    border:1px solid #00ffff;
+}
+
+#projects div:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px #00ffff;
+}
+
+#projects h3{
+    color:#00ffff;
+}
 
 }
